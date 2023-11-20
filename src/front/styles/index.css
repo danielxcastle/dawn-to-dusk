@@ -1,0 +1,72 @@
+/* Update your existing CSS to move "Home Bar Pro" to the far left */
+.login-container {
+  position: absolute;
+  top: 0;
+  width: 270px;
+  height: 300px;
+  right: 0;
+  padding: 10px; /* Adjust the padding as needed */
+  background-color: #fff; /* Set the background color as needed */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a shadow for better visibility */
+  z-index: 1000; /* Make sure it's above other elements on the page */
+  overflow: visible;
+}
+.btn-button {
+  border: 1px solid #D8A43E;
+  color: #D8A43E;
+}
+.btn-button:hover {
+
+  box-shadow: 2px 2px 2px 2px #D8A43E;
+  color: #f3cb7a;
+}
+.token-input {
+  display: none;
+}
+.navbar-logo {
+  max-width: 200px;
+  max-height: 200px;
+  float: right;
+}
+.navbar {
+  background-color: #000000;
+}
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.top-right-nav {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 270px;
+  padding: 10px;
+  background-color: #000000;
+  border-radius: 10px;
+  border: 2px solid #D8A43E;
+  color: #D8A43E;
+  z-index: 1000;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-pic {
+  max-width: 100px;
+  max-height: 100px;
+}
+.footer {
+  background-color: #000000;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.content-home {
+    border: 1px solid #000;
+      width: 45%;
+      overflow: auto;
+}
